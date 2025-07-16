@@ -10,7 +10,7 @@ import pandas as pd
 import re
 
 # Configure Gemini API Key
-genai.configure(api_key="AIzaSyBAuFMnOQ-ZrWPVeLwU_cPPwHB-mEaJTqM")  # <-- Replace this
+genai.configure(api_key="AIzaSyBseI9aq_Rm4dBcF7OEU67by0be6T_q4IM")  # <-- Replace this
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 model = genai.GenerativeModel("gemini-2.0-flash")
